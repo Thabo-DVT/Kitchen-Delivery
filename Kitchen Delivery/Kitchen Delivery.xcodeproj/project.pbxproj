@@ -16,6 +16,7 @@
 		0F0B6B0129F5C751004AA626 /* HighProteinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B6B0029F5C751004AA626 /* HighProteinViewController.swift */; };
 		0F1D44FB29F48D2500C87154 /* KetoMealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D44FA29F48D2500C87154 /* KetoMealsViewController.swift */; };
 		0F20066229BE282B00499101 /* FridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F20066129BE282B00499101 /* FridgeViewController.swift */; };
+		0F483F582A03A2810004CE4A /* ItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F483F572A03A2810004CE4A /* ItemTest.swift */; };
 		0F58039829D6BBE000D6BEDA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F58039729D6BBE000D6BEDA /* LoginViewModel.swift */; };
 		0F58039A29D6C19F00D6BEDA /* Cabinet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F58039929D6C19F00D6BEDA /* Cabinet.swift */; };
 		0F5FB92C29E694410056EDED /* CabinetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FB92B29E694410056EDED /* CabinetViewController.swift */; };
@@ -62,6 +63,7 @@
 		0F0B6B0029F5C751004AA626 /* HighProteinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighProteinViewController.swift; sourceTree = "<group>"; };
 		0F1D44FA29F48D2500C87154 /* KetoMealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetoMealsViewController.swift; sourceTree = "<group>"; };
 		0F20066129BE282B00499101 /* FridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeViewController.swift; sourceTree = "<group>"; };
+		0F483F572A03A2810004CE4A /* ItemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTest.swift; sourceTree = "<group>"; };
 		0F58039729D6BBE000D6BEDA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		0F58039929D6C19F00D6BEDA /* Cabinet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cabinet.swift; sourceTree = "<group>"; };
 		0F5FB92B29E694410056EDED /* CabinetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabinetViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +110,7 @@
 		0F0993D729B7254F008C0962 = {
 			isa = PBXGroup;
 			children = (
-				0FAEA4A729E4AC4C00FA4C2B /* LoginTests */,
+				0FAEA4A729E4AC4C00FA4C2B /* Unit Tests */,
 				0F0993E229B7254F008C0962 /* Kitchen Delivery */,
 				0F0993E129B7254F008C0962 /* Products */,
 			);
@@ -137,12 +139,13 @@
 			path = "Kitchen Delivery";
 			sourceTree = "<group>";
 		};
-		0FAEA4A729E4AC4C00FA4C2B /* LoginTests */ = {
+		0FAEA4A729E4AC4C00FA4C2B /* Unit Tests */ = {
 			isa = PBXGroup;
 			children = (
 				0FAEA4A829E4AC4C00FA4C2B /* LoginTests.swift */,
+				0F483F572A03A2810004CE4A /* ItemTest.swift */,
 			);
-			path = LoginTests;
+			path = "Unit Tests";
 			sourceTree = "<group>";
 		};
 		0FC6520129D06DF4006D462A /* Configs */ = {
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F483F582A03A2810004CE4A /* ItemTest.swift in Sources */,
 				0FAEA4A929E4AC4C00FA4C2B /* LoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
